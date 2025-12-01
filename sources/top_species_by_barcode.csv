@@ -1,0 +1,205 @@
+barcode,rank,species,read_count,relative_abundance_pct
+barcode01,1,Escherichia coli,2829,18.89
+barcode01,2,Unknown,2510,16.76
+barcode01,3,Morganella morganii,2208,14.74
+barcode01,4,Klebsiella grimontii,1277,8.53
+barcode01,5,Klebsiella aerogenes,1136,7.59
+barcode01,6,Klebsiella pneumoniae,684,4.57
+barcode01,7,Comamonas thiooxydans,447,2.98
+barcode01,8,Klebsiella michiganensis,423,2.82
+barcode01,9,Citrobacter freundii,379,2.53
+barcode01,10,Citrobacter portucalensis,349,2.33
+barcode02,1,Unknown,52095,47.13
+barcode02,2,Bacteroides graminisolvens,7330,6.63
+barcode02,3,Azospira sp. I09,3975,3.6
+barcode02,4,Azospira oryzae,3226,2.92
+barcode02,5,Providencia sp. PROV001,1592,1.44
+barcode02,6,Comamonas thiooxydans,1533,1.39
+barcode02,7,Proteus mirabilis,1439,1.3
+barcode02,8,uncultured Macellibacteroides sp.,1217,1.1
+barcode02,9,Comamonas aquatica,1144,1.04
+barcode02,10,Escherichia coli,1092,0.99
+barcode03,1,Escherichia coli,56352,69.79
+barcode03,2,Unknown,8669,10.74
+barcode03,3,Shigella flexneri,2366,2.93
+barcode03,4,Escherichia albertii,1071,1.33
+barcode03,5,Morganella morganii,884,1.09
+barcode03,6,Escherichia fergusonii,744,0.92
+barcode03,7,Shigella dysenteriae,691,0.86
+barcode03,8,Salmonella enterica,566,0.7
+barcode03,9,Escherichia marmotae,555,0.69
+barcode03,10,Escherichia sp. E4742,522,0.65
+barcode04,1,Unknown,39554,91.06
+barcode04,2,Escherichia coli,409,0.94
+barcode04,3,Trichococcus flocculiformis,246,0.57
+barcode04,4,Advenella alkanexedens,223,0.51
+barcode04,5,Bacteroides graminisolvens,218,0.5
+barcode04,6,Methanocorpusculum labreanum,179,0.41
+barcode04,7,Dehalococcoides mccartyi,169,0.39
+barcode04,8,Pseudomonas sp. C27(2019),167,0.38
+barcode04,9,Methanoculleus chikugoensis,167,0.38
+barcode04,10,Sphaerochaeta associata,158,0.36
+barcode05,1,Escherichia coli,33578,51.84
+barcode05,2,Citrobacter sp. RHBSTW-00986,3418,5.28
+barcode05,3,Unknown,3173,4.9
+barcode05,4,Morganella morganii,3153,4.87
+barcode05,5,Proteus mirabilis,2133,3.29
+barcode05,6,Citrobacter portucalensis,2123,3.28
+barcode05,7,Citrobacter braakii,1522,2.35
+barcode05,8,Proteus vulgaris,1365,2.11
+barcode05,9,Bacteroides ovatus,1095,1.69
+barcode05,10,Providencia sp. PROV001,970,1.5
+barcode06,1,Unknown,876,36.09
+barcode06,2,Escherichia coli,433,17.84
+barcode06,3,Citrobacter sp. RHBSTW-00986,267,11.0
+barcode06,4,Morganella morganii,220,9.06
+barcode06,5,Citrobacter braakii,112,4.61
+barcode06,6,Comamonas aquatica,101,4.16
+barcode06,7,Klebsiella oxytoca,92,3.79
+barcode06,8,Pseudomonas fragi,74,3.05
+barcode06,9,Pseudomonas bubulae,45,1.85
+barcode06,10,Bacteroides graminisolvens,45,1.85
+barcode07,1,Escherichia coli,208631,49.46
+barcode07,2,Unknown,43202,10.24
+barcode07,3,Proteus mirabilis,38340,9.09
+barcode07,4,Morganella morganii,12003,2.85
+barcode07,5,Bacteroides ovatus,11474,2.72
+barcode07,6,Klebsiella pneumoniae,8802,2.09
+barcode07,7,Shigella flexneri,5696,1.35
+barcode07,8,Phocaeicola dorei,5402,1.28
+barcode07,9,Providencia sp. PROV001,5354,1.27
+barcode07,10,Klebsiella oxytoca,5260,1.25
+barcode08,1,Unknown,107496,28.38
+barcode08,2,Escherichia coli,48527,12.81
+barcode08,3,Klebsiella oxytoca,45879,12.11
+barcode08,4,Acinetobacter pseudolwoffii,24465,6.46
+barcode08,5,Raoultella terrigena,12313,3.25
+barcode08,6,Shewanella putrefaciens,10062,2.66
+barcode08,7,Klebsiella pneumoniae,8005,2.11
+barcode08,8,Acinetobacter sp. F9,7185,1.9
+barcode08,9,Acinetobacter baumannii,7008,1.85
+barcode08,10,Leclercia adecarboxylata,5958,1.57
+barcode09,1,Unknown,23832,38.16
+barcode09,2,Escherichia coli,8567,13.72
+barcode09,3,Comamonas kerstersii,5730,9.17
+barcode09,4,Comamonas aquatica,2573,4.12
+barcode09,5,Denitrificimonas caeni,1571,2.52
+barcode09,6,Klebsiella pneumoniae,1193,1.91
+barcode09,7,Pseudomonas sp. C27(2019),1132,1.81
+barcode09,8,Acinetobacter towneri,972,1.56
+barcode09,9,Salmonella sp. A29-2,964,1.54
+barcode09,10,Pseudomonas aeruginosa,866,1.39
+barcode10,1,Unknown,20125,81.61
+barcode10,2,Prevotella herbatica,701,2.84
+barcode10,3,Denitrificimonas caeni,600,2.43
+barcode10,4,Segatella copri,438,1.78
+barcode10,5,Escherichia coli,425,1.72
+barcode10,6,Psychrobacter sp. van23A,382,1.55
+barcode10,7,Pseudomonas sp. C27(2019),280,1.14
+barcode10,8,Faecalibacterium prausnitzii,250,1.01
+barcode10,9,Psychrobacter sp. WB2,158,0.64
+barcode10,10,uncultured Macellibacteroides sp.,129,0.52
+barcode11,1,Unknown,61960,43.37
+barcode11,2,Escherichia coli,38390,26.87
+barcode11,3,Comamonas kerstersii,10918,7.64
+barcode11,4,Salmonella enterica,2200,1.54
+barcode11,5,Denitrificimonas caeni,1500,1.05
+barcode11,6,Prevotella herbatica,1492,1.04
+barcode11,7,Klebsiella pneumoniae,1333,0.93
+barcode11,8,Salmonella sp. A29-2,1272,0.89
+barcode11,9,Thiopseudomonas alkaliphila,1238,0.87
+barcode11,10,Wohlfahrtiimonas chitiniclastica,1085,0.76
+barcode12,1,Unknown,50,100.0
+barcode13,1,Escherichia coli,18536,43.8
+barcode13,2,Unknown,8270,19.54
+barcode13,3,Fusobacterium ulcerans,4303,10.17
+barcode13,4,Goslarvirus goslar,2125,5.02
+barcode13,5,Proteus vulgaris,642,1.52
+barcode13,6,Escherichia fergusonii,522,1.23
+barcode13,7,Shigella flexneri,502,1.19
+barcode13,8,Salmonella enterica,489,1.16
+barcode13,9,Klebsiella pneumoniae,469,1.11
+barcode13,10,Citrobacter freundii,452,1.07
+barcode14,1,Unknown,415,100.0
+barcode15,1,Unknown,3773,42.58
+barcode15,2,Escherichia coli,1787,20.17
+barcode15,3,Comamonas kerstersii,1616,18.24
+barcode15,4,Pseudomonas aeruginosa,396,4.47
+barcode15,5,Pseudomonas guangdongensis,179,2.02
+barcode15,6,Denitrificimonas caeni,162,1.83
+barcode15,7,Acinetobacter towneri,148,1.67
+barcode15,8,Pseudomonas sp. C27(2019),107,1.21
+barcode15,9,Fusobacterium ulcerans,101,1.14
+barcode15,10,Klebsiella pneumoniae,74,0.84
+barcode16,1,Unknown,3625,100.0
+barcode17,1,Unknown,594,100.0
+barcode18,1,Escherichia coli,36722,22.81
+barcode18,2,Morganella morganii,27635,17.16
+barcode18,3,Unknown,26983,16.76
+barcode18,4,Proteus terrae,10151,6.3
+barcode18,5,Citrobacter portucalensis,6409,3.98
+barcode18,6,Bacteroides thetaiotaomicron,3857,2.4
+barcode18,7,Citrobacter freundii,3210,1.99
+barcode18,8,Anaerotignum propionicum,3173,1.97
+barcode18,9,Proteus mirabilis,3166,1.97
+barcode18,10,Klebsiella aerogenes,2685,1.67
+barcode19,1,Unknown,35091,81.68
+barcode19,2,Caproicibacterium lactatifermentans,1668,3.88
+barcode19,3,Escherichia coli,862,2.01
+barcode19,4,Alcaligenes faecalis,666,1.55
+barcode19,5,Thiopseudomonas alkaliphila,578,1.35
+barcode19,6,[Clostridium] scindens,361,0.84
+barcode19,7,Ethanoligenens harbinense,185,0.43
+barcode19,8,Caproicibacterium sp. BJN0003,172,0.4
+barcode19,9,Comamonas testosteroni,138,0.32
+barcode19,10,Caproicibacterium argilliputei,131,0.3
+barcode20,1,Escherichia coli,865,28.03
+barcode20,2,Unknown,623,20.19
+barcode20,3,Advenella alkanexedens,337,10.92
+barcode20,4,Escherichia phage GeorgBuechner,232,7.52
+barcode20,5,Thiopseudomonas alkaliphila,164,5.31
+barcode20,6,Morganella morganii,73,2.37
+barcode20,7,Escherichia phage vB_EcoS_Sponge,66,2.14
+barcode20,8,Escherichia phage BF9,62,2.01
+barcode20,9,Escherichia phage TheodorHerzl,58,1.88
+barcode20,10,Escherichia phage vb_EcoS_bov22_1,48,1.56
+barcode21,1,Unknown,24435,69.42
+barcode21,2,Denitrificimonas caeni,2413,6.86
+barcode21,3,Pseudomonas sp. C27(2019),1754,4.98
+barcode21,4,Escherichia coli,847,2.41
+barcode21,5,Salmonella enterica,825,2.34
+barcode21,6,Pseudomonas aeruginosa,659,1.87
+barcode21,7,Thiopseudomonas alkaliphila,263,0.75
+barcode21,8,Segatella copri,245,0.7
+barcode21,9,Klebsiella pneumoniae,238,0.68
+barcode21,10,Prevotella herbatica,229,0.65
+barcode22,1,Escherichia coli,1417,50.92
+barcode22,2,Unknown,695,24.97
+barcode22,3,Klebsiella pneumoniae,247,8.88
+barcode22,4,Salmonella enterica,112,4.02
+barcode22,5,Escherichia fergusonii,69,2.48
+barcode22,6,Salmonella sp. A29-2,49,1.76
+barcode22,7,Shigella flexneri,37,1.33
+barcode22,8,Asteriusvirus PBECO4,35,1.26
+barcode22,9,Asteriusvirus av121Q,26,0.93
+barcode22,10,Escherichia albertii,25,0.9
+barcode23,1,Unknown,412561,90.55
+barcode23,2,Escherichia coli,2822,0.62
+barcode23,3,Denitrificimonas caeni,2719,0.6
+barcode23,4,Pseudomonas sp. C27(2019),2628,0.58
+barcode23,5,Methanoculleus chikugoensis,2010,0.44
+barcode23,6,Salmonella enterica,1748,0.38
+barcode23,7,Methanoculleus bourgensis,1541,0.34
+barcode23,8,Pseudomonas aeruginosa,1459,0.32
+barcode23,9,Sphaerochaeta associata,1349,0.3
+barcode23,10,Serratia marcescens,1017,0.22
+barcode24,1,Escherichia coli,62311,52.72
+barcode24,2,Unknown,21450,18.15
+barcode24,3,Salmonella enterica,2851,2.41
+barcode24,4,Escherichia fergusonii,2717,2.3
+barcode24,5,Klebsiella pneumoniae,2329,1.97
+barcode24,6,Denitrificimonas caeni,2142,1.81
+barcode24,7,Shigella flexneri,1699,1.44
+barcode24,8,Morganella morganii,1587,1.34
+barcode24,9,Pseudomonas sp. C27(2019),1457,1.23
+barcode24,10,Pseudomonas aeruginosa,888,0.75
