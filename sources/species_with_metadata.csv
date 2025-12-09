@@ -99,17 +99,17 @@ BC10,5.1. н,Pig,pig #2,Enriched,Kyiv Oblast,7,Pseudomonas sp. C27(2019),280,1.1
 BC10,5.1. н,Pig,pig #2,Enriched,Kyiv Oblast,8,Faecalibacterium prausnitzii,250,1.01,24660
 BC10,5.1. н,Pig,pig #2,Enriched,Kyiv Oblast,9,Psychrobacter sp. WB2,158,0.64,24660
 BC10,5.1. н,Pig,pig #2,Enriched,Kyiv Oblast,10,uncultured Macellibacteroides sp.,129,0.52,24660
-BC11,5.2.,Pig,pig #2 B2,Native,,1,Unknown,61960,43.37,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,2,Escherichia coli,38390,26.87,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,3,Comamonas kerstersii,10918,7.64,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,4,Salmonella enterica,2200,1.54,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,5,Denitrificimonas caeni,1500,1.05,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,6,Prevotella herbatica,1492,1.04,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,7,Klebsiella pneumoniae,1333,0.93,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,8,Salmonella sp. A29-2,1272,0.89,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,9,Thiopseudomonas alkaliphila,1238,0.87,142878
-BC11,5.2.,Pig,pig #2 B2,Native,,10,Wohlfahrtiimonas chitiniclastica,1085,0.76,142878
-BC12,5.2.н,Pig,pig #2 B2,Enriched,,1,Unknown,50,100.0,50
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,1,Unknown,61960,43.37,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,2,Escherichia coli,38390,26.87,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,3,Comamonas kerstersii,10918,7.64,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,4,Salmonella enterica,2200,1.54,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,5,Denitrificimonas caeni,1500,1.05,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,6,Prevotella herbatica,1492,1.04,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,7,Klebsiella pneumoniae,1333,0.93,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,8,Salmonella sp. A29-2,1272,0.89,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,9,Thiopseudomonas alkaliphila,1238,0.87,142878
+BC11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,10,Wohlfahrtiimonas chitiniclastica,1085,0.76,142878
+BC12,5.2.н,Pig,pig #2 B2,Enriched,Kyiv Oblast,1,Unknown,50,100.0,50
 BC13,6.,Pig,pig #3,Native,Kyiv Oblast,1,Escherichia coli,18536,43.8,42318
 BC13,6.,Pig,pig #3,Native,Kyiv Oblast,2,Unknown,8270,19.54,42318
 BC13,6.,Pig,pig #3,Native,Kyiv Oblast,3,Fusobacterium ulcerans,4303,10.17,42318
@@ -193,13 +193,13 @@ BC23,11.,Pig,pig #8,Native,Mykolaiv Oblast,7,Methanoculleus bourgensis,1541,0.34
 BC23,11.,Pig,pig #8,Native,Mykolaiv Oblast,8,Pseudomonas aeruginosa,1459,0.32,455616
 BC23,11.,Pig,pig #8,Native,Mykolaiv Oblast,9,Sphaerochaeta associata,1349,0.3,455616
 BC23,11.,Pig,pig #8,Native,Mykolaiv Oblast,10,Serratia marcescens,1017,0.22,455616
-BC24,11 н,Pig,pig #8,Enriched,,1,Escherichia coli,62311,52.72,118190
-BC24,11 н,Pig,pig #8,Enriched,,2,Unknown,21450,18.15,118190
-BC24,11 н,Pig,pig #8,Enriched,,3,Salmonella enterica,2851,2.41,118190
-BC24,11 н,Pig,pig #8,Enriched,,4,Escherichia fergusonii,2717,2.3,118190
-BC24,11 н,Pig,pig #8,Enriched,,5,Klebsiella pneumoniae,2329,1.97,118190
-BC24,11 н,Pig,pig #8,Enriched,,6,Denitrificimonas caeni,2142,1.81,118190
-BC24,11 н,Pig,pig #8,Enriched,,7,Shigella flexneri,1699,1.44,118190
-BC24,11 н,Pig,pig #8,Enriched,,8,Morganella morganii,1587,1.34,118190
-BC24,11 н,Pig,pig #8,Enriched,,9,Pseudomonas sp. C27(2019),1457,1.23,118190
-BC24,11 н,Pig,pig #8,Enriched,,10,Pseudomonas aeruginosa,888,0.75,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,1,Escherichia coli,62311,52.72,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,2,Unknown,21450,18.15,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,3,Salmonella enterica,2851,2.41,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,4,Escherichia fergusonii,2717,2.3,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,5,Klebsiella pneumoniae,2329,1.97,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,6,Denitrificimonas caeni,2142,1.81,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,7,Shigella flexneri,1699,1.44,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,8,Morganella morganii,1587,1.34,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,9,Pseudomonas sp. C27(2019),1457,1.23,118190
+BC24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,10,Pseudomonas aeruginosa,888,0.75,118190
