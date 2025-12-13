@@ -1,0 +1,24 @@
+Gene,ReadID,Coverage %,Identity %,Resistance
+aac(3)-IIa,a1c209fd-5263-4143-b151-513c60a10ae2,97.91,93.55,Gentamicin;Tobramycin
+aadA24,82191f5f-3789-4f6e-9c38-190d184aa4e9,92.18,89.74,Streptomycin
+ant(6)-Ia,ad66bd2f-66b5-4cb1-9194-30503fd55a0b,98.27,94.27,Streptomycin
+blaTEM-166,a1c209fd-5263-4143-b151-513c60a10ae2,97.91,94.02,Unknown
+dfrA1,0d7804e4-edb6-4d77-889f-14c3ac738997,98.95,95.21,Trimethoprim
+floR,3cf43852-f4b8-4548-81d8-079cbf81f7ba,97.94,90.49,Chloramphenicol;Florfenicol
+floR,69fa8dce-1d38-484b-b484-103ef22804df,99.42,94.19,Chloramphenicol;Florfenicol
+floR,7001afdf-590e-49b5-be0a-7fa000e14414,97.78,91.51,Chloramphenicol;Florfenicol
+floR,878406ba-54e9-4e99-9cf6-6652f2df11cf,97.37,91.63,Chloramphenicol;Florfenicol
+floR,edf7ac7c-e964-4fb9-b239-9094608a6f7e,98.35,91.15,Chloramphenicol;Florfenicol
+lnu(C),8a13a7f7-bca8-4947-bc14-45b635106c55,95.96,89.24,Lincomycin
+msr(D),758bfa97-b98e-432a-8518-c456ac5cbaee,98.43,87.23,Erythromycin;Azithromycin;Telithromycin;Quinupristin;PristinamycinIA;VirginiamycinS
+nimJ,9cfbbfd0-6139-4e79-8112-898b05e52f30,96.39,88.0,Unknown
+qnrD2,b1a62c42-7dd3-4310-b632-3d60d0dd0184,98.29,94.47,Ciprofloxacin
+sul1,d155e829-267e-4796-a0c4-e5ccc53005c6,98.0,93.97,Sulfamethoxazole
+tet(40),22f3b40e-c656-4aa8-bd82-bbf4eb4665a2,97.38,93.02,Doxycycline;Tetracycline
+tet(40),26387935-3185-44f2-b7b2-c24e8cd7fb5e,97.95,94.96,Doxycycline;Tetracycline
+tet(Q),06a05d74-9e5b-49cc-b65c-11f2ab3de701,89.98,89.09,Doxycycline;Tetracycline;Minocycline
+tet(Q),3aebc229-1558-4b03-99c2-17dc0259942d,94.08,93.98,Doxycycline;Tetracycline;Minocycline
+tet(Q),5cfb4120-c277-4427-8407-0cb8ea2783ba,98.13,94.02,Doxycycline;Tetracycline;Minocycline
+tet(W),4332f02d-e9d6-4fec-8e68-0690e421f096,97.4,92.91,Doxycycline;Tetracycline;Minocycline
+tet(W),9a7faae8-3a12-4e36-a0ee-eda89dedfd2e,81.35,93.82,Doxycycline;Tetracycline;Minocycline
+tet(W),eeb3fe7f-b27a-4785-b236-b9192939724f,90.47,95.53,Doxycycline;Tetracycline;Minocycline

@@ -1,0 +1,8 @@
+Gene,ReadID,Coverage %,Identity %,Resistance
+aph(6)-Id,f69aaaf2-eee2-47ac-a3d4-f742238a2538,96.3,92.04,Streptomycin
+catB3,08408a66-2b2f-4be2-adc0-3161cc25417b,97.79,93.29,Chloramphenicol
+cmlA1,54b4489d-6d13-418f-91f2-d508f7f05ba3,87.86,87.47,Chloramphenicol
+floR,549a17ae-ae2a-42a5-aa4f-46634fe7d51f,97.7,92.29,Chloramphenicol;Florfenicol
+qnrD1,5458df52-8ce4-4689-ac5c-4c00535c757e,97.83,95.54,Ciprofloxacin
+sul1,08408a66-2b2f-4be2-adc0-3161cc25417b,88.81,94.81,Sulfamethoxazole
+sul1,2dca91b4-dd84-4cfe-b709-ca06a4e1e64a,94.58,88.37,Sulfamethoxazole

@@ -1,0 +1,4 @@
+Gene,ReadID,Coverage %,Identity %,Resistance
+floR,0f90a773-444e-4241-b185-4e9108d8c4b2,84.03,91.96,Chloramphenicol;Florfenicol
+floR,59637352-955a-4415-a804-15f57fa8e5c0,97.45,91.09,Chloramphenicol;Florfenicol
+floR,bb8e6028-3fa3-4ab7-84d9-a8c5bca92247,97.53,90.68,Chloramphenicol;Florfenicol

@@ -1,0 +1,16 @@
+Gene,ReadID,Coverage %,Identity %,Resistance
+dfrA1,332c3939-df51-46b0-9e20-4f46a061706d,98.31,94.12,Trimethoprim
+floR,25ccc1d5-7f77-4401-ae1c-b1b3d1b0afca,98.68,92.67,Chloramphenicol;Florfenicol
+floR,5260b0d0-a780-41c0-817e-dfd6cac86dd8,98.19,93.69,Chloramphenicol;Florfenicol
+floR,cc71560c-a845-41a8-a2da-18b8c2806f61,97.94,93.04,Chloramphenicol;Florfenicol
+qnrB19,0f97c7d1-f561-4463-a9c2-309fd3c5e166,99.38,96.17,Ciprofloxacin
+qnrB19,9bdfcb09-c845-440c-a42c-366fff6ed1b2,98.14,93.5,Ciprofloxacin
+qnrD1,af048a7b-cdda-4fb5-95d0-dc2f08a4d309,98.76,94.46,Ciprofloxacin
+qnrD1,d5a83a94-3688-4560-a9ed-0dce5c737d5b,97.83,92.13,Ciprofloxacin
+sul2,00cbfb52-7ac4-41ee-aa37-79751636567f,95.34,94.09,Sulfamethoxazole
+sul2,3acfa299-11a6-4120-bb73-ab545a0d8673,94.98,91.54,Sulfamethoxazole
+sul2,c9ec738e-8d87-4c9b-8028-39a2c82facfb,97.43,93.09,Sulfamethoxazole
+tet(31),10bc6767-8c48-441a-9749-c4b3bd023ee8,99.11,96.85,Doxycycline;Tetracycline
+tet(31),798f7e15-1bd7-433b-8b6c-8382fb601c28,98.46,95.17,Doxycycline;Tetracycline
+tet(A),cd93985c-64e3-42b1-99ae-8060579c1a07,95.92,94.53,Doxycycline;Tetracycline
+tet(A),f6bd8332-4108-4238-90dd-af8624c0fd5a,96.0,94.75,Doxycycline;Tetracycline
