@@ -1,0 +1,32 @@
+phylum,barcode01,barcode02,barcode03,barcode04,barcode05,barcode06,barcode07,barcode08,barcode09,barcode10,barcode11,barcode12,barcode13,barcode14,barcode15,barcode16,barcode17,barcode18,barcode19,barcode20,barcode21,barcode22,barcode23,barcode24,total,superkingdom,kingdom,tax
+Candidatus Thermoplasmatota,0,0,0,0,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,12,0,0,0,43,Archaea,Archaea_none,Archaea;Archaea_none;Candidatus Thermoplasmatota
+Euryarchaeota,0,0,100,476,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,0,43,0,5419,67,6126,Archaea,Archaea_none,Archaea;Archaea_none;Euryarchaeota
+Acidobacteriota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,0,53,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Acidobacteriota
+Actinomycetota,0,838,0,0,0,24,246,1525,0,26,175,0,0,0,0,0,0,0,285,0,0,0,1528,0,4647,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Actinomycetota
+Bacillota,65,1600,562,707,88,26,8213,6888,631,969,4497,0,400,0,76,0,0,7753,3296,0,841,0,7066,914,44592,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Bacillota
+Bacteroidota,186,13496,179,411,2632,45,33408,10372,1182,1437,4499,0,1005,0,0,0,0,8495,187,0,990,0,2530,1298,82352,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Bacteroidota
+Campylobacterota,0,181,23,115,0,0,36,273,80,0,86,0,12,0,0,0,0,293,0,0,0,0,1401,53,2553,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Campylobacterota
+Candidatus Cloacimonadota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,16,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Candidatus Cloacimonadota
+Chlamydiota,0,0,0,0,0,0,0,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,90,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Chlamydiota
+Chlorobiota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,16,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Chlorobiota
+Chloroflexota,0,0,0,169,0,0,0,0,0,0,161,0,0,0,0,0,0,0,92,0,24,0,129,0,575,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Chloroflexota
+Cyanobacteriota,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,55,16,85,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Cyanobacteriota
+Deferribacterota,0,0,0,0,0,0,28,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Deferribacterota
+Deinococcota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,14,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Deinococcota
+Dictyoglomota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,11,0,35,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Dictyoglomota
+Fusobacteriota,0,0,410,0,614,0,1003,171,142,0,294,0,4786,0,101,0,0,0,0,0,0,0,0,683,8204,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Fusobacteriota
+Kiritimatiellota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,0,77,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Kiritimatiellota
+Mycoplasmatota,0,0,0,0,0,0,0,109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,129,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Mycoplasmatota
+Myxococcota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,195,0,195,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Myxococcota
+Planctomycetota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,0,68,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Planctomycetota
+Pseudomonadota,12214,42149,69461,1456,58256,1456,335227,250568,36178,1998,69852,0,25551,0,4861,0,0,116775,3688,1559,8646,2016,19535,92926,1154372,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Pseudomonadota
+Spirochaetota,0,0,20,191,0,0,0,0,0,0,20,0,0,0,0,0,0,0,76,0,69,0,2190,257,2823,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Spirochaetota
+Synergistota,0,0,0,33,0,0,0,71,0,0,15,0,0,0,0,0,0,0,13,0,0,0,744,52,928,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Synergistota
+Thermodesulfobacteriota,0,0,45,171,0,0,96,40,266,66,728,0,0,0,32,0,0,0,113,0,47,11,820,340,2775,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Thermodesulfobacteriota
+Verrucomicrobiota,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,103,0,121,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Verrucomicrobiota
+Euglenozoa,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,19,Eukaryota,Eukaryota_Incertae_sedis,Eukaryota;Eukaryota_Incertae_sedis;Euglenozoa
+Ascomycota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,18,Eukaryota,Fungi,Eukaryota;Fungi;Ascomycota
+Basidiomycota,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,Eukaryota,Fungi,Eukaryota;Fungi;Basidiomycota
+Chordata,0,126,15,156,15,0,228,261,71,39,174,0,65,0,17,0,0,100,77,0,91,0,954,102,2491,Eukaryota,Metazoa,Eukaryota;Metazoa;Chordata
+Unknown,2510,52095,8669,39554,3173,876,43202,107496,23832,20125,61960,50,8270,415,3773,3625,594,26983,35091,623,24435,695,412561,21450,902057,Unclassified,Unknown,Unclassified;Unknown;Unknown
+Uroviricota,0,39,1262,0,0,0,140,839,40,0,367,0,2229,0,0,0,0,612,0,904,0,61,93,32,6618,Viruses,Heunggongvirae,Viruses;Heunggongvirae;Uroviricota
