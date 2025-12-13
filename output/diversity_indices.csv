@@ -1,0 +1,25 @@
+barcode,farm_type,farm_id,sample_type,oblast,shannon_index,simpson_index,inverse_simpson,berger_parker,pielou_evenness,fisher_alpha,richness,total_counts,effective_species
+barcode01,Poultry,poultry #1,Native,Zaporizhzhia Oblast,2.79,0.9,1.12,0.19,0.69,330.29,57.0,14975.0,16.34
+barcode02,Poultry,poultry #1,Enriched,Zaporizhzhia Oblast,3.12,0.77,1.3,0.47,0.52,200.7,411.0,110524.0,22.61
+barcode03,Pig,pig #1,Native,Zhytomyr Oblast,1.58,0.5,2.0,0.7,0.31,213.34,159.0,80746.0,4.84
+barcode04,Pig,pig #1,Enriched,Zhytomyr Oblast,0.61,0.17,5.86,0.91,0.16,244.3,48.0,43439.0,1.84
+barcode05,Poultry,poultry #2,Native,Kyiv Oblast,2.38,0.72,1.39,0.52,0.49,223.32,129.0,64778.0,10.84
+barcode06,Poultry,poultry #2,Enriched,Kyiv Oblast,2.09,0.81,1.23,0.36,0.75,1069.71,16.0,2427.0,8.07
+barcode07,Poultry,poultry #3,Native,Kyiv Oblast,2.43,0.73,1.36,0.49,0.42,160.96,337.0,421827.0,11.36
+barcode08,Poultry,poultry #3,Enriched,Kyiv Oblast,3.2,0.88,1.14,0.28,0.51,163.52,525.0,378812.0,24.55
+barcode09,Pig,pig #2,Native,Kyiv Oblast,2.78,0.82,1.22,0.38,0.55,225.06,160.0,62460.0,16.17
+barcode10,Pig,pig #2,Enriched,Kyiv Oblast,1.03,0.33,3.02,0.82,0.27,282.85,44.0,24660.0,2.79
+barcode11,Pig,pig #2 B2,Native,Kyiv Oblast,2.25,0.73,1.36,0.43,0.4,191.5,272.0,142878.0,9.45
+barcode12,Pig,pig #2 B2,Enriched,Kyiv Oblast,0.0,0.0,,1.0,0.0,1638401.0,1.0,50.0,1.0
+barcode13,Pig,pig #3,Native,Kyiv Oblast,2.22,0.76,1.32,0.44,0.49,245.82,94.0,42318.0,9.18
+barcode14,Pig,pig #3,Enriched,Kyiv Oblast,0.0,0.0,,1.0,0.0,104857601.0,1.0,415.0,1.0
+barcode15,Pig,pig #4,Native,Chernivtsi Oblast,1.84,0.74,1.35,0.43,0.53,404.68,31.0,8860.0,6.27
+barcode16,Pig,pig #4,Enriched,Chernivtsi Oblast,0.0,0.0,,1.0,0.0,692.14,1.0,3625.0,1.0
+barcode17,Pig,pig #5,Native,Chernivtsi Oblast,0.0,0.0,,1.0,0.0,419430401.0,1.0,594.0,1.0
+barcode18,Pig,pig #5,Enriched,Chernivtsi Oblast,2.97,0.88,1.13,0.23,0.54,187.52,245.0,161011.0,19.46
+barcode19,Pig,pig #6,Native,Vinnytsia Oblast,1.1,0.33,3.03,0.82,0.25,244.94,86.0,42963.0,3.02
+barcode20,Pig,pig #6,Enriched,Vinnytsia Oblast,2.52,0.86,1.17,0.28,0.72,803.29,33.0,3086.0,12.41
+barcode21,Pig,pig #7,Native,Zhytomyr Oblast,1.59,0.51,1.96,0.69,0.35,257.2,96.0,35198.0,4.89
+barcode22,Pig,pig #7,Enriched,Zhytomyr Oblast,1.53,0.67,1.5,0.51,0.56,898.2,15.0,2783.0,4.62
+barcode23,Pig,pig #8,Native,Mykolaiv Oblast,0.75,0.18,5.56,0.91,0.13,159.18,358.0,455616.0,2.12
+barcode24,Pig,pig #8,Enriched,Mykolaiv Oblast,2.17,0.69,1.46,0.53,0.41,198.2,187.0,118190.0,8.77

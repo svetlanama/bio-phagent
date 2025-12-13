@@ -3,6 +3,7 @@
 Create output mappings for bio-phagent project:
 1. barcode_farm_mapping.csv - Maps barcodes to farm metadata
 2. taxonomy_barcode_bacteria.csv - Taxonomy with barcode and farm info
+3. diversity_indices.csv - Diversity metrics from rarefied data with farm metadata
 """
 
 import pandas as pd
@@ -112,6 +113,57 @@ def create_taxonomy_barcode_bacteria(metadata):
     return merged_df
 
 
+def create_diversity_indices_csv(metadata):
+    """Extract diversity indices from rarefied data and merge with farm metadata."""
+    rarefied_file = EXPORT_DIR / "abundances" / "rarefied" / "rarefied_abundance_class_table.csv"
+
+    # Read rarefied data (indices as rows, barcodes as columns)
+    df = pd.read_csv(rarefied_file)
+
+    # Get barcode columns
+    barcode_cols = [col for col in df.columns if col.startswith('barcode')]
+
+    # Transpose: indices become columns, barcodes become rows
+    df_transposed = df.set_index('Indices')[barcode_cols].T.reset_index()
+    df_transposed = df_transposed.rename(columns={'index': 'barcode'})
+
+    # Rename columns to snake_case
+    column_mapping = {
+        'Shannon diversity index': 'shannon_index',
+        'Simpson\'s index': 'simpson_index',
+        'Inverse Simpson\'s index': 'inverse_simpson',
+        'Berger Parker index': 'berger_parker',
+        'Pielou\'s evenness': 'pielou_evenness',
+        'Fisher\'s alpha': 'fisher_alpha',
+        'Richness': 'richness',
+        'Total counts': 'total_counts',
+        'Effective number of species': 'effective_species'
+    }
+    df_transposed = df_transposed.rename(columns=column_mapping)
+
+    # Merge with farm metadata
+    merged_df = df_transposed.merge(
+        metadata[['barcode', 'farm_type', 'farm_id', 'sample_type', 'oblast']],
+        on='barcode',
+        how='left'
+    )
+
+    # Reorder columns: metadata first, then diversity indices
+    index_cols = [col for col in column_mapping.values() if col in merged_df.columns]
+    final_cols = ['barcode', 'farm_type', 'farm_id', 'sample_type', 'oblast'] + index_cols
+    merged_df = merged_df[final_cols]
+
+    # Sort by barcode
+    merged_df = merged_df.sort_values('barcode')
+
+    output_file = OUTPUT_DIR / "diversity_indices.csv"
+    merged_df.to_csv(output_file, index=False)
+    print(f"Created: {output_file}")
+    print(f"Diversity records: {len(merged_df)}")
+
+    return merged_df
+
+
 def main():
     print("Creating output mappings...")
     print("=" * 50)
@@ -125,6 +177,9 @@ def main():
 
     # Create taxonomy-barcode-bacteria mapping
     create_taxonomy_barcode_bacteria(metadata)
+
+    # Create diversity indices from rarefied data
+    create_diversity_indices_csv(metadata)
 
     print("=" * 50)
     print("Done!")
