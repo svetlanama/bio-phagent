@@ -42,15 +42,33 @@
 
             // даємо сторінці час намалювати динамічні таблиці AMR
             setTimeout(() => {
-                const tables = iframeDoc.querySelectorAll("table");
+                // 1. Find and expand all AMR accordion items
+                const amrSection = iframeDoc.querySelector('#Section_147c951b8a9f46749ea7022ab007c69b');
+                if (amrSection) {
+                    // Expand all accordion collapses
+                    const collapses = amrSection.querySelectorAll('.accordion-collapse.collapse');
+                    collapses.forEach(collapse => {
+                        collapse.classList.add('show');
+                    });
 
+                    // Update button states
+                    const accordionBtns = amrSection.querySelectorAll('.accordion-button');
+                    accordionBtns.forEach(btn => {
+                        btn.classList.remove('collapsed');
+                        btn.setAttribute('aria-expanded', 'true');
+                    });
+                }
+
+                // 2. Add Export CSV buttons to all tables
+                const tables = iframeDoc.querySelectorAll("table");
                 tables.forEach((table, index) => {
+                    // Check if button already exists
+                    if (table.nextElementSibling?.classList?.contains('export-btn')) return;
+
                     const btn = iframeDoc.createElement("button");
                     btn.textContent = "Export CSV";
                     btn.className = "export-btn";
-
                     table.insertAdjacentElement("afterend", btn);
-
                     btn.addEventListener("click", () => exportTable(table, index));
                 });
 
