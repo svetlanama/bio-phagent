@@ -57,45 +57,62 @@
                         btn.classList.remove('collapsed');
                         btn.setAttribute('aria-expanded', 'true');
                     });
+
+                    // 2. Add ONE Export CSV button per barcode accordion
+                    const accordions = amrSection.querySelectorAll('[id^="accordian_barcode"]');
+                    accordions.forEach(accordion => {
+                        const barcodeId = accordion.id.replace('accordian_', '');
+
+                        // Create export button
+                        const btn = iframeDoc.createElement("button");
+                        btn.textContent = `Export CSV (${barcodeId})`;
+                        btn.className = "export-btn";
+                        btn.style.marginBottom = "15px";
+
+                        // Insert button before the accordion
+                        accordion.insertAdjacentElement("beforebegin", btn);
+
+                        btn.addEventListener("click", () => exportBarcodeData(accordion, barcodeId));
+                    });
                 }
-
-                // 2. Add Export CSV buttons to all tables
-                const tables = iframeDoc.querySelectorAll("table");
-                tables.forEach((table, index) => {
-                    // Check if button already exists
-                    if (table.nextElementSibling?.classList?.contains('export-btn')) return;
-
-                    const btn = iframeDoc.createElement("button");
-                    btn.textContent = "Export CSV";
-                    btn.className = "export-btn";
-                    table.insertAdjacentElement("afterend", btn);
-                    btn.addEventListener("click", () => exportTable(table, index));
-                });
 
             }, 500);
 
-            function exportTable(table, index) {
+            function exportBarcodeData(accordion, barcodeId) {
                 let csv = [];
-                const rows = table.querySelectorAll("tr");
+                // Header row with gene name added
+                csv.push("Gene,ReadID,Coverage %,Identity %,Resistance");
 
-                rows.forEach((row) => {
-                    const cols = row.querySelectorAll("th, td");
-                    const data = [];
+                // Find all h2 elements that contain accordion buttons (these are gene headers)
+                const geneHeaders = accordion.querySelectorAll('h2');
+                geneHeaders.forEach(h2 => {
+                    // Get gene name from button
+                    const geneNameEl = h2.querySelector('.accordion-button b');
+                    const geneName = geneNameEl ? geneNameEl.innerText : 'Unknown';
 
-                    cols.forEach((col) => {
-                        let text = col.innerText.replace(/,/g, " ");
-                        data.push(text);
-                    });
-
-                    csv.push(data.join(","));
+                    // Get the next sibling which is the collapse div containing the table
+                    const collapseDiv = h2.nextElementSibling;
+                    if (collapseDiv && collapseDiv.classList.contains('accordion-collapse')) {
+                        const table = collapseDiv.querySelector('table');
+                        if (table) {
+                            const rows = table.querySelectorAll('tbody tr');
+                            rows.forEach(row => {
+                                const cols = row.querySelectorAll('td');
+                                const rowData = [geneName];
+                                cols.forEach(col => {
+                                    rowData.push(col.innerText.replace(/,/g, ';'));
+                                });
+                                csv.push(rowData.join(','));
+                            });
+                        }
+                    }
                 });
 
+                // Download CSV
                 const csvContent = "data:text/csv;charset=utf-8," + csv.join("\n");
-                const encodedUri = encodeURI(csvContent);
-
-                const link = document.createElement("a");
-                link.href = encodedUri;
-                link.download = `table_${index + 1}.csv`;
+                const link = iframeDoc.createElement("a");
+                link.href = encodeURI(csvContent);
+                link.download = `amr_${barcodeId}.csv`;
                 link.click();
             }
         };
