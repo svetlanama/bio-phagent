@@ -1,0 +1,25 @@
+barcode,sample_id,farm_type,farm_id,sample_type,oblast,collection_period
+barcode01,1.1.,Poultry,poultry #1,Native,Zaporizhzhia Oblast,JAN-FEB 2025
+barcode02,1.1. н,Poultry,poultry #1,Enriched,Zaporizhzhia Oblast,JAN-FEB 2025
+barcode03,2.,Pig,pig #1,Native,Zhytomyr Oblast,JAN-FEB 2025
+barcode04,2. н,Pig,pig #1,Enriched,Zhytomyr Oblast,JAN-FEB 2025
+barcode05,3.,Poultry,poultry #2,Native,Kyiv Oblast,JAN-FEB 2025
+barcode06,3. н,Poultry,poultry #2,Enriched,Kyiv Oblast,JAN-FEB 2025
+barcode07,4.,Poultry,poultry #3,Native,Kyiv Oblast,JAN-FEB 2025
+barcode08,4. н,Poultry,poultry #3,Enriched,Kyiv Oblast,JAN-FEB 2025
+barcode09,5.1.,Pig,pig #2,Native,Kyiv Oblast,JAN-FEB 2025
+barcode10,5.1. н,Pig,pig #2,Enriched,Kyiv Oblast,JAN-FEB 2025
+barcode11,5.2.,Pig,pig #2 B2,Native,Kyiv Oblast,JAN-FEB 2025
+barcode12,5.2.н,Pig,pig #2 B2,Enriched,Kyiv Oblast,JAN-FEB 2025
+barcode13,6.,Pig,pig #3,Native,Kyiv Oblast,JAN-FEB 2025
+barcode14,6. н,Pig,pig #3,Enriched,Kyiv Oblast,JAN-FEB 2025
+barcode15,7.,Pig,pig #4,Native,Chernivtsi Oblast,JAN-FEB 2025
+barcode16,7. н,Pig,pig #4,Enriched,Chernivtsi Oblast,JAN-FEB 2025
+barcode17,8.,Pig,pig #5,Native,Chernivtsi Oblast,JAN-FEB 2025
+barcode18,8. н,Pig,pig #5,Enriched,Chernivtsi Oblast,JAN-FEB 2025
+barcode19,9.,Pig,pig #6,Native,Vinnytsia Oblast,JAN-FEB 2025
+barcode20,9. н,Pig,pig #6,Enriched,Vinnytsia Oblast,JAN-FEB 2025
+barcode21,10.,Pig,pig #7,Native,Zhytomyr Oblast,JAN-FEB 2025
+barcode22,10. н,Pig,pig #7,Enriched,Zhytomyr Oblast,JAN-FEB 2025
+barcode23,11.,Pig,pig #8,Native,Mykolaiv Oblast,JAN-FEB 2025
+barcode24,11 н,Pig,pig #8,Enriched,Mykolaiv Oblast,JAN-FEB 2025
