@@ -1,0 +1,32 @@
+phylum,barcode01,barcode02,barcode03,barcode04,barcode05,barcode06,barcode07,barcode08,barcode09,barcode10,barcode11,barcode12,barcode13,barcode14,barcode15,barcode16,barcode17,barcode18,barcode19,barcode20,barcode21,barcode22,barcode23,barcode24,total,superkingdom,kingdom,tax
+Candidatus Thermoplasmatota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Archaea,Archaea_none,Archaea;Archaea_none;Candidatus Thermoplasmatota
+Euryarchaeota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Archaea,Archaea_none,Archaea;Archaea_none;Euryarchaeota
+Acidobacteriota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Acidobacteriota
+Actinomycetota,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Actinomycetota
+Bacillota,0,2,0,0,0,0,0,1,0,4,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Bacillota
+Bacteroidota,0,9,0,0,0,1,4,0,0,1,1,0,0,0,0,0,0,3,0,0,1,0,0,0,4,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Bacteroidota
+Campylobacterota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Campylobacterota
+Candidatus Cloacimonadota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Candidatus Cloacimonadota
+Chlamydiota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Chlamydiota
+Chlorobiota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Chlorobiota
+Chloroflexota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Chloroflexota
+Cyanobacteriota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Cyanobacteriota
+Deferribacterota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Deferribacterota
+Deinococcota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Deinococcota
+Dictyoglomota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Dictyoglomota
+Fusobacteriota,0,0,1,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Fusobacteriota
+Kiritimatiellota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Kiritimatiellota
+Mycoplasmatota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Mycoplasmatota
+Myxococcota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Myxococcota
+Planctomycetota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Planctomycetota
+Pseudomonadota,38,14,38,1,46,27,38,30,33,2,21,0,34,0,29,0,0,34,5,21,13,32,3,33,24,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Pseudomonadota
+Spirochaetota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Spirochaetota
+Synergistota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Synergistota
+Thermodesulfobacteriota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Thermodesulfobacteriota
+Verrucomicrobiota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bacteria,Bacteria_none,Bacteria;Bacteria_none;Verrucomicrobiota
+Euglenozoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Eukaryota,Eukaryota_Incertae_sedis,Eukaryota;Eukaryota_Incertae_sedis;Euglenozoa
+Ascomycota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Eukaryota,Fungi,Eukaryota;Fungi;Ascomycota
+Basidiomycota,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Eukaryota,Fungi,Eukaryota;Fungi;Basidiomycota
+Chordata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Eukaryota,Metazoa,Eukaryota;Metazoa;Chordata
+Unknown,9,22,5,46,1,18,5,16,14,40,25,47,7,47,18,47,47,9,40,7,32,14,42,14,17,Unclassified,Unknown,Unclassified;Unknown;Unknown
+Uroviricota,0,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,19,0,1,0,0,0,Viruses,Heunggongvirae,Viruses;Heunggongvirae;Uroviricota
