@@ -42,6 +42,11 @@
 
             // даємо сторінці час намалювати динамічні таблиці AMR
             setTimeout(() => {
+                // Hide original Export CSV buttons
+                iframeDoc.querySelectorAll('.btn.btn-outline-primary').forEach(btn => {
+                    btn.style.display = 'none';
+                });
+
                 // 1. Find and expand all AMR accordion items
                 const amrSection = iframeDoc.querySelector('#Section_147c951b8a9f46749ea7022ab007c69b');
                 if (amrSection) {
