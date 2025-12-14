@@ -1,0 +1,198 @@
+Gene,mechanism,mechanism_category
+aac(3)-IIa,Aminoglycoside Acetyltransferase (Drug Inactivation),Drug Inactivation
+aac(3)-IVa,Aminoglycoside Acetyltransferase (Drug Inactivation),Drug Inactivation
+aac(3)-Id,Aminoglycoside Acetyltransferase (Drug Inactivation),Drug Inactivation
+aac(6')-Ib-cr,Aminoglycoside Acetyltransferase (Drug Inactivation),Drug Inactivation
+aadA1,Aminoglycoside Adenylyltransferase (Drug Inactivation),Drug Inactivation
+aadA13,Aminoglycoside Adenylyltransferase (Drug Inactivation),Drug Inactivation
+aadA14,Aminoglycoside Adenylyltransferase (Drug Inactivation),Drug Inactivation
+aadA2,Aminoglycoside Adenylyltransferase (Drug Inactivation),Drug Inactivation
+aadA24,Aminoglycoside Adenylyltransferase (Drug Inactivation),Drug Inactivation
+aadA5,Aminoglycoside Adenylyltransferase (Drug Inactivation),Drug Inactivation
+ant(2'')-Ia,Aminoglycoside Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+ant(3'')-Ia,Aminoglycoside Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+ant(6)-Ia,Aminoglycoside Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+ant(9)-Ia,Aminoglycoside Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+aph(2'')-Ic,Aminoglycoside Phosphotransferase (Drug Inactivation),Drug Inactivation
+aph(2'')-If,Aminoglycoside Phosphotransferase (Drug Inactivation),Drug Inactivation
+aph(2'')-Ig,Aminoglycoside Phosphotransferase (Drug Inactivation),Drug Inactivation
+aph(3'')-Ib,Aminoglycoside Phosphotransferase (Drug Inactivation),Drug Inactivation
+aph(3')-III,Aminoglycoside Phosphotransferase (Drug Inactivation),Drug Inactivation
+aph(3')-Ia,Aminoglycoside Phosphotransferase (Drug Inactivation),Drug Inactivation
+aph(4)-Ia,Aminoglycoside Phosphotransferase (Drug Inactivation),Drug Inactivation
+aph(6)-Id,Aminoglycoside Phosphotransferase (Drug Inactivation),Drug Inactivation
+blaACI-1,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaACT-16,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaCARB-2,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaCARB-4,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaCMY-101,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaCMY-129,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaCMY-78,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaCTX-M-138,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaCTX-M-32,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaDHA-10,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaDHA-12,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaDHA-16,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaHERA-3,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaMOR-2,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaOXA-1,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaOXA-20,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaOXA-347,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaOXA-362,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaOXA-534,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaOXY-2-1,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaOXY-2-5,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaOXY-6-2,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaPLA-5A,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaROB-1,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-10,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-104,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-106,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-122,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-126,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-127,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-128,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-135,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-141,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-143,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-150,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-156,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-166,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-168,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-176,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-186,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-1A,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-1B,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-1C,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-2,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-215,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-216,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-217,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-29,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-60,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTEM-95,Beta-lactamase (Drug Inactivation),Drug Inactivation
+blaTER-2,Beta-lactamase (Drug Inactivation),Drug Inactivation
+cat,Chloramphenicol Acetyltransferase (Drug Inactivation),Drug Inactivation
+cat(pC194),Chloramphenicol Acetyltransferase (Drug Inactivation),Drug Inactivation
+cat(pC221),Chloramphenicol Acetyltransferase (Drug Inactivation),Drug Inactivation
+catA1,Chloramphenicol Acetyltransferase (Drug Inactivation),Drug Inactivation
+catA2,Chloramphenicol Acetyltransferase (Drug Inactivation),Drug Inactivation
+catB2,Chloramphenicol Acetyltransferase (Drug Inactivation),Drug Inactivation
+catB3,Chloramphenicol Acetyltransferase (Drug Inactivation),Drug Inactivation
+catQ,Chloramphenicol Acetyltransferase (Drug Inactivation),Drug Inactivation
+ere(A),Erythromycin Esterase (Drug Inactivation),Drug Inactivation
+ere(D),Erythromycin Esterase (Drug Inactivation),Drug Inactivation
+fosA,Fosfomycin Resistance (Drug Inactivation/Target Modification),Drug Inactivation
+fosA7,Fosfomycin Resistance (Drug Inactivation/Target Modification),Drug Inactivation
+lnu(A),Lincosamide Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+lnu(B),Lincosamide Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+lnu(C),Lincosamide Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+lnu(D),Lincosamide Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+lnu(F),Lincosamide Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+lnu(G),Lincosamide Nucleotidyltransferase (Drug Inactivation),Drug Inactivation
+mph(A),Macrolide Phosphotransferase (Drug Inactivation),Drug Inactivation
+mph(B),Macrolide Phosphotransferase (Drug Inactivation),Drug Inactivation
+mph(E),Macrolide Phosphotransferase (Drug Inactivation),Drug Inactivation
+mph(G),Macrolide Phosphotransferase (Drug Inactivation),Drug Inactivation
+mph(N),Macrolide Phosphotransferase (Drug Inactivation),Drug Inactivation
+ARR-3,Rifampicin ADP-ribosyltransferase (Drug Inactivation),Drug Inactivation
+optrA,ABC Transporter (Oxazolidinone/Phenicol Efflux),Efflux Pump
+cml,Chloramphenicol Efflux Pump,Efflux Pump
+cmlA1,Chloramphenicol Efflux Pump,Efflux Pump
+floR,Chloramphenicol Efflux Pump,Efflux Pump
+lsa(A),Lincosamide-Streptogramin Efflux,Efflux Pump
+lsa(E),Lincosamide-Streptogramin Efflux,Efflux Pump
+mef(A),Macrolide Efflux Pump,Efflux Pump
+mef(B),Macrolide Efflux Pump,Efflux Pump
+mef(C),Macrolide Efflux Pump,Efflux Pump
+msr(C),Macrolide Efflux Pump,Efflux Pump
+msr(D),Macrolide Efflux Pump,Efflux Pump
+msr(E),Macrolide Efflux Pump,Efflux Pump
+oqxA,RND Efflux Pump (Quinolone/Multidrug),Efflux Pump
+oqxB,RND Efflux Pump (Quinolone/Multidrug),Efflux Pump
+tet(31),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(32),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(33),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(36),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(39),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(40),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(44),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(59),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(A),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(B),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(D),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(E),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(G),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(H),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(J),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(L),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(M),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(O),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(O/32/O),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(O/W),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(O/W)-1,Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(Q),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(T),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(W),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(X),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(Y),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tet(Z),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+tetA(P),Tetracycline Efflux/Ribosomal Protection,Efflux Pump
+nimB,Nitroimidazole Resistance,Other
+nimJ,Nitroimidazole Resistance,Other
+cfxA3,Other/Unknown Mechanism,Other
+cfxA6,Other/Unknown Mechanism,Other
+cmx,Other/Unknown Mechanism,Other
+cphA5,Other/Unknown Mechanism,Other
+hugA,Other/Unknown Mechanism,Other
+mdf(A),Other/Unknown Mechanism,Other
+vga(C),Other/Unknown Mechanism,Other
+str,Streptomycin Resistance,Other
+dfrA1,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA12,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA14,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA15,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA16,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA17,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA20,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA5,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA7,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrA8,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrB3,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrB7,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrD,Dihydrofolate Reductase (Target Bypass),Target Bypass
+dfrG,Dihydrofolate Reductase (Target Bypass),Target Bypass
+sul1,Sulfonamide Resistance (Target Bypass),Target Bypass
+sul2,Sulfonamide Resistance (Target Bypass),Target Bypass
+sul3,Sulfonamide Resistance (Target Bypass),Target Bypass
+mcr-1.1,Colistin Resistance (Target Modification),Target Modification
+cfr(C),Ribosome Methylase (Target Modification),Target Modification
+erm(42),Ribosome Methylase (Target Modification),Target Modification
+erm(47),Ribosome Methylase (Target Modification),Target Modification
+erm(B),Ribosome Methylase (Target Modification),Target Modification
+erm(C),Ribosome Methylase (Target Modification),Target Modification
+erm(F),Ribosome Methylase (Target Modification),Target Modification
+erm(G),Ribosome Methylase (Target Modification),Target Modification
+qnrB10,Quinolone Resistance (Target Protection),Target Protection
+qnrB18,Quinolone Resistance (Target Protection),Target Protection
+qnrB19,Quinolone Resistance (Target Protection),Target Protection
+qnrB21,Quinolone Resistance (Target Protection),Target Protection
+qnrB27,Quinolone Resistance (Target Protection),Target Protection
+qnrB40,Quinolone Resistance (Target Protection),Target Protection
+qnrB5,Quinolone Resistance (Target Protection),Target Protection
+qnrB51,Quinolone Resistance (Target Protection),Target Protection
+qnrB52,Quinolone Resistance (Target Protection),Target Protection
+qnrB57,Quinolone Resistance (Target Protection),Target Protection
+qnrB6,Quinolone Resistance (Target Protection),Target Protection
+qnrB65,Quinolone Resistance (Target Protection),Target Protection
+qnrB7,Quinolone Resistance (Target Protection),Target Protection
+qnrB81,Quinolone Resistance (Target Protection),Target Protection
+qnrB82,Quinolone Resistance (Target Protection),Target Protection
+qnrD1,Quinolone Resistance (Target Protection),Target Protection
+qnrD2,Quinolone Resistance (Target Protection),Target Protection
+qnrD3,Quinolone Resistance (Target Protection),Target Protection
+qnrS1,Quinolone Resistance (Target Protection),Target Protection
+qnrS2,Quinolone Resistance (Target Protection),Target Protection
+qnrS9,Quinolone Resistance (Target Protection),Target Protection
+qnrVC5,Quinolone Resistance (Target Protection),Target Protection
+qnrVC6,Quinolone Resistance (Target Protection),Target Protection
