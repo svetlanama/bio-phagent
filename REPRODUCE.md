@@ -382,11 +382,11 @@ python scripts/extract_species_by_barcode.py BC01 BC02 BC03
 |------|-------------|
 | `export/abundances/table/abundance_species_table.csv` | Species abundance |
 | `output/basic/barcode_farm_mapping.csv` | Barcode metadata |
-| `output/xlsx/[WIP] UA_FARM_WW_CLEAN_METADATA.xlsx` | Target Excel file |
+| `output/xlsx/[FINAL] UA_FARM_WW_CLEAN_METADATA.xlsx` | Target Excel file |
 
 #### Output
 
-- Adds new sheets to `output/xlsx/[WIP] UA_FARM_WW_CLEAN_METADATA.xlsx`
+- Adds new sheets to `output/xlsx/[FINAL] UA_FARM_WW_CLEAN_METADATA.xlsx`
 - Each sheet named `{barcode}_Species` (e.g., `BC01_Species`)
 - Contains: Rank, Species, Read Count, Relative Abundance (%), Genus, Family, Order, Class, Phylum
 
@@ -413,7 +413,7 @@ ls -la output/xlsx/
 # Use Python to check sheet names
 python -c "
 from openpyxl import load_workbook
-wb = load_workbook('output/xlsx/[WIP] UA_FARM_WW_CLEAN_METADATA.xlsx')
+wb = load_workbook('output/xlsx/[FINAL] UA_FARM_WW_CLEAN_METADATA.xlsx')
 print('Sheets:', [s for s in wb.sheetnames if 'Species' in s])
 "
 ```
@@ -432,7 +432,7 @@ Processing BC01...
      1. Escherichia coli: X,XXX (XX.X%)
      2. ...
 
-Added 24 sheets to: output/xlsx/[WIP] UA_FARM_WW_CLEAN_METADATA.xlsx
+Added 24 sheets to: output/xlsx/[FINAL] UA_FARM_WW_CLEAN_METADATA.xlsx
 Done!
 ```
 
@@ -531,7 +531,7 @@ output/
         amr_resistance_class_matrix.csv  # Resistance class x sample (47 x 24)
         amr_visualization.ipynb          # AMR analysis notebook
     xlsx/
-        [WIP] UA_FARM_WW_CLEAN_METADATA.xlsx  # Excel with species sheets
+        [FINAL] UA_FARM_WW_CLEAN_METADATA.xlsx  # Excel with species sheets
 ```
 
 ---

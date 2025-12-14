@@ -135,7 +135,7 @@ graph TD
     AMRDIR --> ARC["amr_resistance_class_matrix.csv"]
     AMRDIR --> ANOTE["amr_visualization.ipynb"]
 
-    XLSX --> XLSXF["[WIP] UA_FARM_WW_CLEAN_METADATA.xlsx"]
+    XLSX --> XLSXF["[FINAL] UA_FARM_WW_CLEAN_METADATA.xlsx"]
 
     SCRIPTS --> S1["create_output_mappings.py"]
     SCRIPTS --> S2["process_amr_data.py"]

@@ -21,7 +21,7 @@ bio-phagent/
 ├── input/                              # Source data
 │   ├── wf-metagenomics-report_*.html   # Main workflow report
 │   └── wrapper.html                    # Export tool
-├── wip/                                # Work in progress
+├── wip/                                # Source metadata
 │   └── [WIP] UA_FARM_WW_CLEAN_METADATA.xlsx
 ├── export/                             # Exported CSV data
 │   ├── abundances/

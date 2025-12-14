@@ -212,7 +212,7 @@ def main():
     print(f"Loaded {len(df)} species from abundance table")
 
     # Load Excel workbook
-    excel_file = XLSX_DIR / "[WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx"
+    excel_file = XLSX_DIR / "[FINAL] UA_FARM_WW_CLEAN_METADATA.xlsx"
     wb = load_workbook(excel_file)
 
     # Process each barcode
