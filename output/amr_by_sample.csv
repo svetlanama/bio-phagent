@@ -1,0 +1,22 @@
+barcode,farm_type,farm_id,sample_type,oblast,total_gene_detections,unique_reads,unique_genes,unique_resistance_classes
+barcode01,Poultry,poultry #1,Native,Zaporizhzhia Oblast,247,211,13,27
+barcode02,Poultry,poultry #1,Enriched,Zaporizhzhia Oblast,2727,2586,46,22
+barcode03,Pig,pig #1,Native,Zhytomyr Oblast,239,151,21,28
+barcode04,Pig,pig #1,Enriched,Zhytomyr Oblast,81,30,12,20
+barcode05,Poultry,poultry #2,Native,Kyiv Oblast,3688,3504,35,35
+barcode06,Poultry,poultry #2,Enriched,Kyiv Oblast,8,6,6,5
+barcode07,Poultry,poultry #3,Native,Kyiv Oblast,26669,26106,73,43
+barcode08,Poultry,poultry #3,Enriched,Kyiv Oblast,4829,4564,58,40
+barcode09,Pig,pig #2,Native,Kyiv Oblast,1784,1738,25,19
+barcode10,Pig,pig #2,Enriched,Kyiv Oblast,48,22,14,19
+barcode11,Pig,pig #2 B2,Native,Kyiv Oblast,698,436,45,37
+barcode13,Pig,pig #3,Native,Kyiv Oblast,220,135,43,29
+barcode14,Pig,pig #3,Enriched,Kyiv Oblast,6,3,1,2
+barcode15,Pig,pig #4,Native,Chernivtsi Oblast,45,24,8,14
+barcode18,Pig,pig #5,Enriched,Chernivtsi Oblast,5759,5121,92,44
+barcode19,Pig,pig #6,Native,Vinnytsia Oblast,121,53,24,29
+barcode20,Pig,pig #6,Enriched,Vinnytsia Oblast,22,15,7,7
+barcode21,Pig,pig #7,Native,Zhytomyr Oblast,1108,511,35,27
+barcode22,Pig,pig #7,Enriched,Zhytomyr Oblast,100,70,12,19
+barcode23,Pig,pig #8,Native,Mykolaiv Oblast,487,244,41,30
+barcode24,Pig,pig #8,Enriched,Mykolaiv Oblast,2564,2415,48,24
