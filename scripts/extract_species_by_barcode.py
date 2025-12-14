@@ -18,6 +18,8 @@ from openpyxl import load_workbook
 BASE_DIR = Path(__file__).parent.parent
 EXPORT_DIR = BASE_DIR / "export"
 OUTPUT_DIR = BASE_DIR / "output"
+BASIC_DIR = OUTPUT_DIR / "basic"
+XLSX_DIR = OUTPUT_DIR / "xlsx"
 
 # All available barcodes
 ALL_BARCODES = [f"BC{i:02d}" for i in range(1, 25)]
@@ -50,7 +52,7 @@ def load_species_data():
 
 def load_metadata():
     """Load barcode to farm metadata mapping."""
-    mapping_file = OUTPUT_DIR / "barcode_farm_mapping.csv"
+    mapping_file = BASIC_DIR / "barcode_farm_mapping.csv"
     df = pd.read_csv(mapping_file)
     # Create lookup dict: barcode01 -> {sample_id, farm_type, ...}
     metadata = {}
@@ -210,7 +212,7 @@ def main():
     print(f"Loaded {len(df)} species from abundance table")
 
     # Load Excel workbook
-    excel_file = OUTPUT_DIR / "[WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx"
+    excel_file = XLSX_DIR / "[WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx"
     wb = load_workbook(excel_file)
 
     # Process each barcode

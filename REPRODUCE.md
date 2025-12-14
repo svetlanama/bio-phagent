@@ -17,7 +17,7 @@ pip install pandas openpyxl plotly scipy matplotlib seaborn jupyter
 Ensure you have the following source files:
 - `input/wf-metagenomics-report_metagenomics-farms-ukr.html` - Main HTML report from wf-metagenomics pipeline
 - `input/wrapper.html` - Export tool for abundance tables and AMR data
-- `output/[WIP] UA_FARM_WW_CLEAN_METADATA.xlsx` - Sample metadata
+- `wip/[WIP] UA_FARM_WW_CLEAN_METADATA.xlsx` - Sample metadata
 
 ---
 
@@ -117,19 +117,19 @@ python scripts/create_output_mappings.py
 ```
 
 **Outputs:**
-- `output/barcode_farm_mapping.csv` (24 records)
-- `output/taxonomy_barcode_bacteria.csv` (6,443 records)
-- `output/diversity_indices.csv` (24 records)
+- `output/basic/barcode_farm_mapping.csv` (24 records)
+- `output/basic/taxonomy_barcode_bacteria.csv` (6,443 records)
+- `output/basic/diversity_indices.csv` (24 records)
 
 **Expected output:**
 ```
 Creating output mappings...
 ==================================================
 Loaded metadata for 24 barcodes
-Created: output/barcode_farm_mapping.csv
-Created: output/taxonomy_barcode_bacteria.csv
+Created: output/basic/barcode_farm_mapping.csv
+Created: output/basic/taxonomy_barcode_bacteria.csv
 Total records: 6442
-Created: output/diversity_indices.csv
+Created: output/basic/diversity_indices.csv
 Diversity records: 24
 ==================================================
 Done!
@@ -142,10 +142,10 @@ python scripts/process_amr_data.py
 ```
 
 **Outputs:**
-- `output/amr_by_sample.csv` (22 records)
-- `output/amr_full_data.csv` (51,451 records)
-- `output/amr_gene_matrix.csv` (198 genes x 24 samples)
-- `output/amr_resistance_class_matrix.csv` (47 classes x 24 samples)
+- `output/amr/amr_by_sample.csv` (22 records)
+- `output/amr/amr_full_data.csv` (51,451 records)
+- `output/amr/amr_gene_matrix.csv` (198 genes x 24 samples)
+- `output/amr/amr_resistance_class_matrix.csv` (47 classes x 24 samples)
 
 **Expected output:**
 ```
@@ -166,10 +166,10 @@ Expanded to 51,451 records (multi-drug parsed)
 
 Creating sample summaries...
 
-Created: output/amr_by_sample.csv
-Created: output/amr_full_data.csv
-Created: output/amr_gene_matrix.csv
-Created: output/amr_resistance_class_matrix.csv
+Created: output/amr/amr_by_sample.csv
+Created: output/amr/amr_full_data.csv
+Created: output/amr/amr_gene_matrix.csv
+Created: output/amr/amr_resistance_class_matrix.csv
 ...
 Done!
 ```
@@ -181,12 +181,12 @@ Done!
 ### 3.1 Taxonomy Visualization
 
 ```bash
-jupyter notebook output/taxonomy_visualization.ipynb
+jupyter notebook output/basic/taxonomy_visualization.ipynb
 ```
 
 Or run all cells programmatically:
 ```bash
-jupyter nbconvert --to notebook --execute output/taxonomy_visualization.ipynb
+jupyter nbconvert --to notebook --execute output/basic/taxonomy_visualization.ipynb
 ```
 
 **Visualizations generated:**
@@ -203,12 +203,12 @@ jupyter nbconvert --to notebook --execute output/taxonomy_visualization.ipynb
 ### 3.2 AMR Visualization
 
 ```bash
-jupyter notebook output/amr_visualization.ipynb
+jupyter notebook output/amr/amr_visualization.ipynb
 ```
 
 Or run all cells programmatically:
 ```bash
-jupyter nbconvert --to notebook --execute output/amr_visualization.ipynb
+jupyter nbconvert --to notebook --execute output/amr/amr_visualization.ipynb
 ```
 
 **Visualizations generated:**
@@ -240,7 +240,7 @@ python scripts/extract_species_by_barcode.py BC01 BC02 BC03
 ```
 
 **Output:**
-- Adds new sheets to `output/[WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx`
+- Adds new sheets to `output/xlsx/[WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx`
 - Each sheet named `{barcode}_Species` (e.g., `BC01_Species`)
 - Contains: Rank, Species, Read Count, Relative Abundance (%), Genus, Family, Order, Class, Phylum
 
@@ -257,7 +257,7 @@ Processing BC01...
      1. Escherichia coli: X,XXX (XX.X%)
      2. ...
 
-Added 24 sheets to: output/[WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx
+Added 24 sheets to: output/xlsx/[WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx
 Done!
 ```
 
@@ -277,8 +277,8 @@ python scripts/create_output_mappings.py
 python scripts/process_amr_data.py
 
 # Step 3: Run visualization notebooks
-jupyter notebook output/taxonomy_visualization.ipynb
-jupyter notebook output/amr_visualization.ipynb
+jupyter notebook output/basic/taxonomy_visualization.ipynb
+jupyter notebook output/amr/amr_visualization.ipynb
 
 # Step 4: Extract species data
 python scripts/extract_species_by_barcode.py --all
@@ -290,17 +290,20 @@ python scripts/extract_species_by_barcode.py --all
 
 ```
 output/
-    barcode_farm_mapping.csv         # Barcode to farm metadata
-    taxonomy_barcode_bacteria.csv    # Long-format taxonomy (6,443 records)
-    diversity_indices.csv            # Rarefied diversity metrics (24 samples)
-    amr_by_sample.csv                # AMR summary per sample
-    amr_full_data.csv                # Complete AMR data (51,451 records)
-    amr_gene_matrix.csv              # Gene x sample matrix
-    amr_resistance_class_matrix.csv  # Resistance class x sample matrix
-    [WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx  # Excel with species sheets
-    taxonomy_visualization.ipynb     # Taxonomy analysis notebook
-    amr_visualization.ipynb          # AMR analysis notebook
-    TAXONOMY_BUILD.md                # Taxonomy build documentation
+    basic/
+        barcode_farm_mapping.csv         # Barcode to farm metadata
+        taxonomy_barcode_bacteria.csv    # Long-format taxonomy (6,443 records)
+        diversity_indices.csv            # Rarefied diversity metrics (24 samples)
+        taxonomy_visualization.ipynb     # Taxonomy analysis notebook
+        TAXONOMY_BUILD.md                # Taxonomy build documentation
+    amr/
+        amr_by_sample.csv                # AMR summary per sample
+        amr_full_data.csv                # Complete AMR data (51,451 records)
+        amr_gene_matrix.csv              # Gene x sample matrix
+        amr_resistance_class_matrix.csv  # Resistance class x sample matrix
+        amr_visualization.ipynb          # AMR analysis notebook
+    xlsx/
+        [WIP] UA_FARM_WW_CLEAN_METADATA _v1.xlsx  # Excel with species sheets
 ```
 
 ---

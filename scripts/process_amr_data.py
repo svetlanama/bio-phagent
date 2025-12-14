@@ -13,14 +13,17 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent.parent
 EXPORT_DIR = BASE_DIR / "export"
 OUTPUT_DIR = BASE_DIR / "output"
+BASIC_DIR = OUTPUT_DIR / "basic"
+AMR_DIR = OUTPUT_DIR / "amr"
 
-# Ensure output directory exists
+# Ensure output directories exist
 OUTPUT_DIR.mkdir(exist_ok=True)
+AMR_DIR.mkdir(exist_ok=True)
 
 
 def load_barcode_mapping():
     """Load barcode to farm metadata mapping."""
-    mapping_file = OUTPUT_DIR / "barcode_farm_mapping.csv"
+    mapping_file = BASIC_DIR / "barcode_farm_mapping.csv"
     return pd.read_csv(mapping_file)
 
 
@@ -154,24 +157,24 @@ def main():
 
     # Save outputs
     # 1. Sample summary
-    summary_file = OUTPUT_DIR / "amr_by_sample.csv"
+    summary_file = AMR_DIR / "amr_by_sample.csv"
     summary.to_csv(summary_file, index=False)
     print(f"\nCreated: {summary_file}")
 
     # 2. Full merged data (for detailed analysis)
-    full_file = OUTPUT_DIR / "amr_full_data.csv"
+    full_file = AMR_DIR / "amr_full_data.csv"
     merged.to_csv(full_file, index=False)
     print(f"Created: {full_file}")
 
-    # 3. Gene × sample matrix
+    # 3. Gene x sample matrix
     gene_matrix = create_gene_by_sample_matrix(merged)
-    gene_matrix_file = OUTPUT_DIR / "amr_gene_matrix.csv"
+    gene_matrix_file = AMR_DIR / "amr_gene_matrix.csv"
     gene_matrix.to_csv(gene_matrix_file)
     print(f"Created: {gene_matrix_file}")
 
-    # 4. Resistance class × sample matrix
+    # 4. Resistance class x sample matrix
     class_matrix = create_resistance_class_by_sample(merged)
-    class_matrix_file = OUTPUT_DIR / "amr_resistance_class_matrix.csv"
+    class_matrix_file = AMR_DIR / "amr_resistance_class_matrix.csv"
     class_matrix.to_csv(class_matrix_file)
     print(f"Created: {class_matrix_file}")
 
