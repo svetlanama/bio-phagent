@@ -15,9 +15,11 @@ BASE_DIR = Path(__file__).parent.parent
 EXPORT_DIR = BASE_DIR / "export"
 WIP_DIR = BASE_DIR / "wip"
 OUTPUT_DIR = BASE_DIR / "output"
+BASIC_DIR = OUTPUT_DIR / "basic"
 
-# Ensure output directory exists
+# Ensure output directories exist
 OUTPUT_DIR.mkdir(exist_ok=True)
+BASIC_DIR.mkdir(exist_ok=True)
 
 
 def load_metadata():
@@ -44,7 +46,7 @@ def load_metadata():
 
 def create_barcode_farm_mapping(metadata):
     """Create barcode to farm mapping CSV."""
-    output_file = OUTPUT_DIR / "barcode_farm_mapping.csv"
+    output_file = BASIC_DIR / "barcode_farm_mapping.csv"
     metadata.to_csv(output_file, index=False)
     print(f"Created: {output_file}")
     return metadata
@@ -105,7 +107,7 @@ def create_taxonomy_barcode_bacteria(metadata):
     # Sort by barcode and taxon level
     merged_df = merged_df.sort_values(['barcode', 'taxon_level', 'taxon_name'])
 
-    output_file = OUTPUT_DIR / "taxonomy_barcode_bacteria.csv"
+    output_file = BASIC_DIR / "taxonomy_barcode_bacteria.csv"
     merged_df.to_csv(output_file, index=False)
     print(f"Created: {output_file}")
     print(f"Total records: {len(merged_df)}")
@@ -156,7 +158,7 @@ def create_diversity_indices_csv(metadata):
     # Sort by barcode
     merged_df = merged_df.sort_values('barcode')
 
-    output_file = OUTPUT_DIR / "diversity_indices.csv"
+    output_file = BASIC_DIR / "diversity_indices.csv"
     merged_df.to_csv(output_file, index=False)
     print(f"Created: {output_file}")
     print(f"Diversity records: {len(merged_df)}")
