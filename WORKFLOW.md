@@ -271,4 +271,3 @@ pie title Sample Type Distribution
 
 ---
 
-*Generated for bio-phagent metagenomics pipeline - December 2024*
