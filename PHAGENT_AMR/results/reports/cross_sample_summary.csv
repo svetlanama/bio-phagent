@@ -1,0 +1,3 @@
+gene_symbol,class,num_samples_detected,sample_list,num_farms_detected,farm_list,always_plasmid_borne
+qnrD1,QUINOLONE,2,"barcode07, barcode18",2,"pig #5, poultry #3",True
+qnrD,QUINOLONE,1,barcode09,1,pig #2,True
