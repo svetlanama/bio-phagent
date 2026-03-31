@@ -2,8 +2,7 @@
 
 **Project:** Bio-phagent — Metagenomics Analysis of Ukrainian Farm Wastewater
 **Subproject:** PHAGENT_AMR — Contig-Backed AMR Detection with Plasmid Context
-**Date:** March 2026
-**Samples:** 4 of 24 barcodes (barcode07, barcode08, barcode09, barcode18)
+**Samples:** 4 of 24 barcodes (barcode07, barcode08, barcode09, barcode18) - actually we have 23 barcodes (barcode06 is missed)
 **Data source:** Nanopore long-read sequencing (WW_FarmUAA_RLB_20250219)
 
 ---
@@ -185,7 +184,7 @@ The main bio-phagent pipeline detected AMR using ResFinder on raw reads (EPI2ME 
 
 ## 8. Limitations and Caveats
 
-1. **Partial sample coverage:** Only 4 of 24 barcodes have been analyzed. Findings cannot be generalized to all farms without processing the remaining 20 samples.
+1. **Partial sample coverage:** Only 4 of 24 barcodes (note: 23 barcodes, barcode06 is missed) have been analyzed. Findings cannot be generalized to all farms without processing the remaining 20 samples.
 
 2. **Small assembly sizes:** Assemblies range from 5.6–108 KB, far smaller than typical metagenomes. This reflects the low-biomass nature of the samples and means many organisms and AMR genes present in the community may not have assembled.
 
@@ -201,29 +200,7 @@ The main bio-phagent pipeline detected AMR using ResFinder on raw reads (EPI2ME 
 
 ---
 
-## 9. Recommendations
-
-### Immediate Next Steps
-
-1. **Process remaining 20 barcodes** through the full assembly pipeline to enable farm-level and region-level comparisons.
-2. **Run AMRFinderPlus in protein mode** (`-p` on predicted ORFs) to capture divergent AMR genes missed by nucleotide search.
-3. **Cross-reference with read-level results** — compare qnrD/qnrD1 detections from AMRFinderPlus against ResFinder results for the same barcodes to assess concordance.
-
-### Scientific Follow-Up
-
-4. **Investigate the Col3M plasmid lineage** — the near-identical AB434 plasmids across farms warrant further characterization (full plasmid alignment, phylogenetics).
-5. **Assess co-resistance potential** — check whether qnrD-carrying contigs or neighboring contigs carry additional resistance determinants.
-6. **Compare Native vs Enriched samples** across all farms — the absence of qnrD1 in barcode08 (Enriched) vs presence in barcode07 (Native) is notable and warrants investigation at larger sample size.
-
-### Pipeline Improvements
-
-7. **Add assembly quality metrics** — integrate contig N50, total length, and coverage statistics into the reporting pipeline.
-8. **Add PlasmidFinder** as a supplementary replicon detection tool.
-9. **Create visualization notebook** — AMR heatmaps, plasmid association plots, and farm comparison charts for the full 24-sample dataset.
-
----
-
-## 10. Methods Summary
+## 9. Methods Summary
 
 ### Pipeline
 
@@ -235,14 +212,6 @@ Raw FASTQ (Nanopore) → metaFlye (--meta) → Medaka (r1041_e82_400bps_sup_v5.2
     → Report (priority findings, sample/farm summaries)
 ```
 
-### Tools and Versions
-
-| Tool | Version | Database |
-|------|---------|----------|
-| Flye | >= 2.9 | N/A (de novo assembly) |
-| Medaka | latest | Model: r1041_e82_400bps_sup_v5.2.0 |
-| AMRFinderPlus | latest | NCBI AMRFinder DB (auto-updated) |
-| MOB-suite | 3.1.9 | NCBI plasmid DB, MOB/MPF/oriT databases |
 
 ### Priority Classification
 
