@@ -106,7 +106,7 @@ sequenceDiagram
 ## Data Transformation Diagram
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph RAW["Raw Reads"]
         R1["barcode07.fastq.gz<br/>~thousands of reads"]
         R2["barcode08.fastq.gz"]
@@ -165,143 +165,6 @@ flowchart LR
 
 ---
 
-## Script Dependencies
-
-```mermaid
-graph LR
-    subgraph INPUTS["Input Sources"]
-        FASTQ["Raw FASTQ<br/>barcode01-24"]
-        META["barcode_farm_mapping.csv"]
-    end
-
-    subgraph SCRIPTS["Scripts"]
-        S1["01_assemble.py"]
-        S2["02_polish.py"]
-        S3["03_amrfinder.py"]
-        S4["04_mob_recon.py"]
-        S5["05_merge_results.py"]
-        S6["06_report.py"]
-    end
-
-    subgraph OUTPUTS["Outputs"]
-        ASM["Assembly FASTA"]
-        POL["Polished FASTA"]
-        AMRTSV["AMR TSVs"]
-        MOBRPT["MOB contig reports"]
-        ANNOT["Annotated AMR tables"]
-        RPT["Summary reports"]
-    end
-
-    FASTQ --> S1
-    S1 --> ASM
-
-    ASM --> S2
-    FASTQ --> S2
-    S2 --> POL
-
-    POL --> S3
-    S3 --> AMRTSV
-
-    ASM --> S4
-    S4 --> MOBRPT
-
-    AMRTSV --> S5
-    MOBRPT --> S5
-    META --> S5
-    S5 --> ANNOT
-
-    ANNOT --> S6
-    META --> S6
-    S6 --> RPT
-
-    style S1 fill:#8b5cf6,color:#fff
-    style S2 fill:#a855f7,color:#fff
-    style S3 fill:#f59e0b,color:#fff
-    style S4 fill:#f59e0b,color:#fff
-    style S5 fill:#22c55e,color:#fff
-    style S6 fill:#16a34a,color:#fff
-```
-
----
-
-## File Structure
-
-```mermaid
-graph TD
-    ROOT["PHAGENT_AMR/"]
-
-    ROOT --> INPUT_DIR["Input/"]
-    ROOT --> CODE["Code/"]
-    ROOT --> SCRIPTS["scripts/"]
-    ROOT --> RESULTS["results/"]
-    ROOT --> DOCS["Docs/"]
-
-    INPUT_DIR --> ZIP["WW_FarmUAA_RLB_20250219-fastqs.zip"]
-
-    CODE --> NB1["contigs_for_barcode_v1.ipynb"]
-    CODE --> NB2["contigs_for_barcode_v2.ipynb"]
-    CODE --> NB3["mob_result.ipynb"]
-
-    SCRIPTS --> SC1["01_assemble.py"]
-    SCRIPTS --> SC2["02_polish.py"]
-    SCRIPTS --> SC3["03_amrfinder.py"]
-    SCRIPTS --> SC4["04_mob_recon.py"]
-    SCRIPTS --> SC5["05_merge_results.py"]
-    SCRIPTS --> SC6["06_report.py"]
-
-    RESULTS --> ASM_DIR["assembly/"]
-    RESULTS --> POL_DIR["polished/"]
-    RESULTS --> AMR_DIR["amr/"]
-    RESULTS --> MOB_DIR["mob/"]
-    RESULTS --> MRG_DIR["merged/"]
-    RESULTS --> RPT_DIR["reports/"]
-
-    MRG_DIR --> MRG1["all_samples_amr_annotated.tsv"]
-    MRG_DIR --> MRG2["barcode{XX}_amr_annotated.tsv"]
-
-    RPT_DIR --> R1["amr_summary_by_sample.csv"]
-    RPT_DIR --> R2["priority_findings.csv"]
-    RPT_DIR --> R3["cross_sample_summary.csv"]
-    RPT_DIR --> R4["farm_level_summary.csv"]
-
-    DOCS --> DOC1["WORKFLOW.md"]
-    DOCS --> DOC2["REPRODUCE.md"]
-
-    style ROOT fill:#f0f9ff
-    style INPUT_DIR fill:#fee2e2
-    style CODE fill:#f5f5f4
-    style SCRIPTS fill:#fae8ff
-    style RESULTS fill:#dcfce7
-    style DOCS fill:#dbeafe
-```
-
----
-
-## Execution Order
-
-```mermaid
-graph LR
-    A["1. Prepare FASTQ"] --> B["2. 01_assemble.py"]
-    B --> C["3. 02_polish.py"]
-    C --> D["4a. 03_amrfinder.py"]
-    C --> E["4b. 04_mob_recon.py"]
-    D --> F["5. 05_merge_results.py"]
-    E --> F
-    F --> G["6. 06_report.py"]
-
-    style A fill:#fee2e2
-    style B fill:#8b5cf6,color:#fff
-    style C fill:#a855f7,color:#fff
-    style D fill:#f59e0b,color:#fff
-    style E fill:#f59e0b,color:#fff
-    style F fill:#22c55e,color:#fff
-    style G fill:#16a34a,color:#fff
-```
-
-**Note:** Steps 4a and 4b can run in parallel after step 3.
-
----
-
 ## Evidence Model
 
 Each AMR finding is traceable through the full chain:
@@ -340,25 +203,6 @@ flowchart LR
 ---
 
 ## Comparison with Main Pipeline
-
-```mermaid
-flowchart LR
-    subgraph MAIN["Main Pipeline (ResFinder / EPI2ME)"]
-        direction TB
-        MR["Raw reads"] -->|"read-level"| MRF["ResFinder"]
-        MRF --> MOUT["51,451 AMR records<br/>198 genes, 47 classes"]
-    end
-
-    subgraph PHAGENT["PHAGENT_AMR Pipeline (Assembly-based)"]
-        direction TB
-        PR["Raw reads"] -->|"assembly"| PF["Flye + Medaka"]
-        PF -->|"contig-level"| PAMR["AMRFinderPlus + MOB-suite"]
-        PAMR --> POUT["Contig-backed AMR<br/>+ plasmid context"]
-    end
-
-    style MAIN fill:#dbeafe,stroke:#3b82f6
-    style PHAGENT fill:#dcfce7,stroke:#22c55e
-```
 
 | Aspect | Main Pipeline | PHAGENT_AMR |
 |--------|---------------|-------------|
