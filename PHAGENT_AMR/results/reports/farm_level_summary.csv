@@ -1,0 +1,4 @@
+farm_id,farm_type,oblast,num_samples,total_amr_genes,unique_genes,priority_genes,plasmid_borne_genes
+pig #2,Pig,Kyiv Oblast,1,1,1,1,1
+pig #5,Pig,Chernivtsi Oblast,1,1,1,1,1
+poultry #3,Poultry,Kyiv Oblast,2,1,1,1,1

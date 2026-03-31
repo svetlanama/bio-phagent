@@ -1,0 +1,5 @@
+barcode,sample_id,farm_type,farm_id,sample_type,oblast,total_amr_genes,unique_amr_genes,unique_classes,priority_gene_count,esbl_gene_count,plasmid_borne_count,gene_list
+barcode07,4.,Poultry,poultry #3,Native,Kyiv Oblast,1,1,1,1,0,1,qnrD1
+barcode08,4. н,Poultry,poultry #3,Enriched,Kyiv Oblast,0,0,0,0,0,0,
+barcode09,5.1.,Pig,pig #2,Native,Kyiv Oblast,1,1,1,1,0,1,qnrD
+barcode18,8. н,Pig,pig #5,Enriched,Chernivtsi Oblast,1,1,1,1,0,1,qnrD1
